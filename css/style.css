@@ -300,7 +300,7 @@ button {
 
 header {
      height: 105px;
-     background: #8b1310;
+     background: #3c3c3c;
      width: 100%;
      padding: 33px 30px;
 }
@@ -565,7 +565,7 @@ ul.email li img {
 
 .read_more {
      display: block;
-     background: #8b1310;
+     background: #3c3c3c;
      color: #fff;
      max-width: 224px;
      height: 61px;
@@ -646,13 +646,13 @@ ul.email li img {
 }
 
 .lisertab .servi_tab.active {
-     background: #7f1410e6;
+     background: #5f5f5f;
      color: #fff;
 }
 
 .lisertab .servi_tab:focus,
 .lisertab .servi_tab:hover {
-     background: #7f1410e6;
+     background: #5f5f5f;
      color: #fff;
 }
 
@@ -687,7 +687,7 @@ ul.email li img {
      bottom: 0;
      left: 0;
      transition: .5s ease;
-     background-color: #82171287;
+     background-color: #5f5f5f;
      border-radius: 381px;
      margin: 0 auto;
      opacity: 0;
@@ -824,7 +824,7 @@ ul.email li img {
 /** footer **/
 
 .footer {
-     background: #540705;
+     background: #3c3c3c;
      padding-top: 362px
 }
 
@@ -846,7 +846,7 @@ ul.social_icon li:last-child {
 
 ul.social_icon li a {
      background: #fff;
-     color: #540705;
+     color: #3c3c3c;
      width: 50px;
      height: 50px;
      display: inline-block;
@@ -1004,7 +1004,7 @@ ul.re_post li {
 .send {
      margin: 0 auto;
      display: block;
-     background: #540705;
+     background: #3c3c3c;
      color: #fff;
      max-width: 160px;
      padding: 10px 0px;
