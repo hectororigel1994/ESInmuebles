@@ -29,6 +29,17 @@
 <link href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <!-- animation -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"/>
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   
+   <!--load WOW js from CDN-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -75,7 +86,7 @@
       </header>
       <!-- end header -->
       <!-- start slider section -->
-      <div class=" banner_main">
+      <div class=" banner_main" >
          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -87,8 +98,8 @@
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="bg_white">
-                           <h1>Integramos una <span class="yello">Agencia</span></h1>
-                           <p>De especialistas y profesionales</p>
+                           <h1 class="wow fadeInRight"  data-duration-in=".3" data-delay-in=".0">Integramos una <span class="yello">Agencia</span></h1>
+                           <p class="wow fadeInRight"  data-duration-in=".3" data-delay-in=".2">De especialistas y profesionales</p>
                         </div>
                         <a class="read_more ban_btn" href="Javascript:void(0)">Más información</a>
                      </div>
@@ -98,8 +109,8 @@
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="bg_white">
-                           <h1>Te ayudamos a VENDER <span class="yello">Lo más PRONTO posible</span></h1>
-                           <p>En las MEJORES condiciones
+                           <h1 class="wow fadeInRight"  data-duration-in=".3" data-delay-in=".0">Te ayudamos a VENDER <span class="yello">Lo más PRONTO posible</span></h1>
+                           <p class="wow fadeInRight"  data-duration-in=".3" data-delay-in=".2">En las MEJORES condiciones
                               Al mejor PRECIO.</p>
                         </div>
                         <a class="read_more ban_btn" href="Javascript:void(0)">Más información</a>
@@ -110,8 +121,8 @@
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="bg_white">
-                           <h1>Somos expertos <span class="yello">En solucionar </span></h1>
-                           <p>Te ayudamos a solucionar, no dejes pasar tiempo...</p>
+                           <h1 class="wow fadeInRight"  data-duration-in=".3" data-delay-in=".0">Somos expertos <span class="yello">En solucionar </span></h1>
+                           <p class="wow fadeInRight"  data-duration-in=".3" data-delay-in=".2">Te ayudamos a solucionar, no dejes pasar tiempo...</p>
                         </div>
                         <a class="read_more ban_btn" href="Javascript:void(0)">Más información</a>
                      </div>
@@ -135,8 +146,8 @@
             <div class="row">
                <div class="col-sm-12">
                   <div class="titlepage">
-                     <h2>¿Quiénes Sómos?</h2>
-                     <p>Somos un equipo multidisciplinario con más de 10 años de experiencia en inmuebles y nos ocupamos de manera 
+                     <h2 class="wow fadeInLeft"  data-duration-in=".3" data-delay-in=".3">¿Quiénes Sómos?</h2>
+                     <p class="wow fadeInUpBig"  data-duration-in=".3" data-delay-in=".0">Somos un equipo multidisciplinario con más de 10 años de experiencia en inmuebles y nos ocupamos de manera 
                         comprometida pero sobre todo  CONCIENTES de tu PATRIMONIO en un marco de profesionalismo y atención PERSONALIZADA. </p>
                   </div>
                </div>
@@ -145,8 +156,8 @@
                      <div class="row d_flex">
                         <div class="col-md-5">
                            <div class="about_box_text">
-                              <h3>Nuestra motivación</h3>
-                              <p>
+                              <h3 class="wow fadeInRight"  data-duration-in=".3" data-delay-in=".3">Nuestra motivación</h3>
+                              <p class="wow fadeInDown"  data-duration-in=".3" data-delay-in=".0">
                                  Ayudarte Profesionalmente a mejorar las condiciones de vida patrimonial.
                               </p>
                               <a class="read_more" href="Javascript:void(0)"><i class="fa fa-whatsapp"> Contactar</i> </a>
@@ -533,6 +544,20 @@
          </div>
       </footer>
       <!-- end footer -->
+
+      <script>
+         wow = new WOW(
+         {
+             boxClass:     'wow',      // default
+             animateClass: 'animated', // change this if you are not using animate.css
+             offset:       0,          // default
+             mobile:       true,       // keep it on mobile
+             live:         true        // track if element updates
+           }
+         )
+        wow.init();
+       </script>
+
       <!-- Javascript files-->
       <script src="js/whatsapp.js"></script>
       <script src="js/jquery.min.js"></script>
